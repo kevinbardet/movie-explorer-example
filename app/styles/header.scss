@@ -5,6 +5,7 @@
       position: fixed;
       top: 0px;
       width:100%;
+      z-index: 5;
       background-color: $colorGray;
       @include padding($headerTopPadding 15px $headerBottomPadding 15px);
       @include box-sizing(border-box);
